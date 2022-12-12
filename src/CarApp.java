@@ -5,6 +5,7 @@ public class CarApp {
 	public static void main(String[] args) 
 		// mainin alku
 		{
+		System.out.println("Tervetuloa autopeliin!");
 		String input;
 		Scanner in = new Scanner(System.in);
 		Car car = new Car("Toyota", "RAV4", 40);
